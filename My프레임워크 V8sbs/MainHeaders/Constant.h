@@ -1,0 +1,68 @@
+#pragma once
+
+const int WINSIZEX = 800;
+const int WINSIZEY = 600;
+
+const int TILECNTX = 20;
+const int TILECNTY = 40;
+const int TILESIZEX = 130;
+const int TILESIZEY = 68;
+
+const int ITEM_EAR		= 0x01; // 0000 0001
+const int ITEM_GOLD		= 0x02; // 0000 0010
+const int ITEM_MENTAL	= 0x04; // 0000 0100
+
+
+const DWORD	KEY_LEFT	= 0x00000001; //	  0001
+const DWORD	KEY_RIGHT	= 0x00000002; //	  0010
+const DWORD	KEY_UP		= 0x00000004; //	  0100
+const DWORD	KEY_DOWN	= 0x00000008; //	  1000
+const DWORD	KEY_RETURN	= 0x00000010;  //0001 0000
+const DWORD	KEY_SPACE	= 0x00000020;  //0010 0000 
+const DWORD	KEY_LBUTTON	= 0x00000040; // 0100 0000
+const DWORD	KEY_F5		= 0x00000080;
+const DWORD	KEY_RBUTTON	= 0x00000100;
+
+
+static TCHAR* STAGE_PLAYER		= L"Player";
+
+static TCHAR* STAND_RIGHT		= L"StandR";
+static TCHAR* STAND_LEFT		= L"StandL";
+static TCHAR* STAND_UP			= L"StandU";
+static TCHAR* STAND_DOWN		= L"StandD";
+static TCHAR* STAND_RIGHT_DOWN	= L"StandRD";
+static TCHAR* STAND_RIGHT_UP	= L"StandRU";
+static TCHAR* STAND_LEFT_UP		= L"StandLU";
+static TCHAR* STAND_LEFT_DOWN	= L"StandLD";
+
+
+
+
+enum SORTID
+{
+	SORTID_FIRST,
+	SORTID_SORTY,
+	SORTID_LAST,
+	SORTID_END,
+};
+
+enum WINMODE
+{
+	WINMODE_FULL,
+	WINMODE_WIN,
+};
+
+enum SCENE
+{
+	SCENE_NONPASS = -1,
+	SCENE_LOGO,
+	SCENE_STAGE,
+};
+
+
+
+enum TEXTYPE
+{
+	TEXTYPE_SINGLE,
+	TEXTYPE_MULTI,
+};

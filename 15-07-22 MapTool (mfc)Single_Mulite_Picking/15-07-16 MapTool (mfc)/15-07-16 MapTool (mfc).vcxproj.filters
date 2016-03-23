@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{3c6ffa2d-fa7c-4472-86a5-d8cf68b57739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View">
+      <UniqueIdentifier>{51c14a05-162e-4766-81ac-41f48715b1e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager">
+      <UniqueIdentifier>{3abe4d83-6276-468a-81e5-5d4719c97a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\Device">
+      <UniqueIdentifier>{6d7b2858-ce71-4a1f-82ae-2ac91d6d6af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\TextureMgr">
+      <UniqueIdentifier>{cfd033f5-d509-44ae-8d4c-2e4d3599f192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\TextureMgr\Texture">
+      <UniqueIdentifier>{eec58a4a-695d-4bad-be7f-a14bb650fd26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\TextureMgr\Texture\Single">
+      <UniqueIdentifier>{13451830-f880-4da6-a8f8-45c32285aff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\TextureMgr\Texture\Multi">
+      <UniqueIdentifier>{05437809-1cbd-4297-8e95-c6e0e49d8ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\MainView">
+      <UniqueIdentifier>{75e010c1-5481-414f-a06b-17e596133ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\FormView">
+      <UniqueIdentifier>{49e917e7-63e4-4b07-9e5e-79dda1e7008a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\MiniView">
+      <UniqueIdentifier>{08d853d0-9c69-4783-b736-85d02a2d7f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Frame">
+      <UniqueIdentifier>{f6531d9c-4c68-4041-bc19-f026bb47bd1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="UserImages.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\My150716MapToolmfc.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\15-07-16 MapTool (mfc)Doc.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\15-07-16 MapTool (mfc).ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="15-07-16 MapTool (mfc).h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="15-07-16 MapTool (mfc)Doc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>02.Manager\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>02.Manager\TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>02.Manager\TextureMgr\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>02.Manager\TextureMgr\Texture\Multi</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>02.Manager\TextureMgr\Texture\Single</Filter>
+    </ClInclude>
+    <ClInclude Include="15-07-16 MapTool (mfc)View.h">
+      <Filter>01.View\MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>01.View\FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniView.h">
+      <Filter>01.View\MiniView</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>03.Frame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="15-07-16 MapTool (mfc).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15-07-16 MapTool (mfc)Doc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>02.Manager\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>02.Manager\TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>02.Manager\TextureMgr\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>02.Manager\TextureMgr\Texture\Multi</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>02.Manager\TextureMgr\Texture\Single</Filter>
+    </ClCompile>
+    <ClCompile Include="15-07-16 MapTool (mfc)View.cpp">
+      <Filter>01.View\MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>01.View\FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniView.cpp">
+      <Filter>01.View\MiniView</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>03.Frame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="15-07-16 MapTool (mfc).rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

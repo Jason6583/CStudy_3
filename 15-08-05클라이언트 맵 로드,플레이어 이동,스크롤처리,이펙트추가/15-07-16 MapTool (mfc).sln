@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15-07-16 MapTool (mfc)", "15-07-16 MapTool (mfc)\15-07-16 MapTool (mfc).vcxproj", "{25FD5BE0-72C3-4BD2-8C5E-BA5BC5363F25}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{09CAC89A-A756-4ECF-99DE-00EED4D4C3FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99.MainHeaders", "99.MainHeaders", "{B4AD7B63-F3C5-4C6F-A500-9E8485928FE4}"
+	ProjectSection(SolutionItems) = preProject
+		MainHeaders\Constant.h = MainHeaders\Constant.h
+		MainHeaders\Define.h = MainHeaders\Define.h
+		MainHeaders\Function.h = MainHeaders\Function.h
+		MainHeaders\Include.h = MainHeaders\Include.h
+		MainHeaders\Macro.h = MainHeaders\Macro.h
+		MainHeaders\Struct.h = MainHeaders\Struct.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25FD5BE0-72C3-4BD2-8C5E-BA5BC5363F25}.Debug|Win32.ActiveCfg = Debug|Win32
+		{25FD5BE0-72C3-4BD2-8C5E-BA5BC5363F25}.Debug|Win32.Build.0 = Debug|Win32
+		{25FD5BE0-72C3-4BD2-8C5E-BA5BC5363F25}.Release|Win32.ActiveCfg = Release|Win32
+		{25FD5BE0-72C3-4BD2-8C5E-BA5BC5363F25}.Release|Win32.Build.0 = Release|Win32
+		{09CAC89A-A756-4ECF-99DE-00EED4D4C3FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{09CAC89A-A756-4ECF-99DE-00EED4D4C3FD}.Debug|Win32.Build.0 = Debug|Win32
+		{09CAC89A-A756-4ECF-99DE-00EED4D4C3FD}.Release|Win32.ActiveCfg = Release|Win32
+		{09CAC89A-A756-4ECF-99DE-00EED4D4C3FD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

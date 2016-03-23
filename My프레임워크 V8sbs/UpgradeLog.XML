@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="140217">
+</Property><Property Name="솔루션 파일" Value="C:\Users\Administrator\Desktop\유건곤\d2d\My프레임워크 V8sbs\140217.sln">
+</Property><Property Name="Date" Value="2015년 8월 6일 목요일">
+</Property><Property Name="Time" Value="오후 12:52">
+</Property></Properties><Event ErrorLevel="0" Project="140217" Source="140217\140217.vcproj" Description="Converting project file 'C:\Users\Administrator\Desktop\유건곤\d2d\My프레임워크 V8sbs\140217\140217.vcproj'.">
+</Event><Event ErrorLevel="1" Project="140217" Source="140217\140217.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="140217" Source="140217\140217.vcproj" Description="Done converting to new project file 'C:\Users\Administrator\Desktop\유건곤\d2d\My프레임워크 V8sbs\140217\140217.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="140217" Source="140217\140217.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Client" Source="Client\Client.vcproj" Description="Converting project file 'C:\Users\Administrator\Desktop\유건곤\d2d\My프레임워크 V8sbs\Client\Client.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Client" Source="Client\Client.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Client" Source="Client\Client.vcproj" Description="Done converting to new project file 'C:\Users\Administrator\Desktop\유건곤\d2d\My프레임워크 V8sbs\Client\Client.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Client" Source="Client\Client.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="140217.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="140217.sln" Description="Converted">
+</Event></UpgradeLog>
